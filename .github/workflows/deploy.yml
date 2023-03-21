@@ -9,7 +9,7 @@ env:
   AWS_REGION: ap-south-1                 
   ECR_REPOSITORY: production
   ECS_SERVICE : demo-app 
-  ECR_REGISTRY : 756515085936.dkr.ecr.ap-south-1.amazonaws.com/production
+  ECR_REGISTRY : 756515085936.dkr.ecr.ap-south-1.amazonaws.com
   ECS_CLUSTER: demo-cluster                 
   CONTAINER_NAME: demo-app
   IMAGE_TAG: ${{ github.sha }}
