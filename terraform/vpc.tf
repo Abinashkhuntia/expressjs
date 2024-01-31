@@ -3,7 +3,7 @@ resource "aws_vpc" "main" {
   instance_tenancy     = "default"
   enable_dns_support   = "true"
   enable_dns_hostnames = "true"
-  enable_classiclink   = "false"
+  # Remove the enable_classiclink attribute
   tags = {
     Name = "demo"
   }
